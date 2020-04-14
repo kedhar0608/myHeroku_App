@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+<script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"/>
+<title>Hobbies</title>
+<style>
+    .mycolor
+{
+  --background:#b122b180;
+   --color:#FFFFFF;
+}
+    .mycolor2
+{
+  --background:#1285e480;
+  
+  --color:#FFFFFF;
+}
+    .mycolor3
+{
+  --background:#5d738580;
+  --color:#FFFFFF;
+}
+    .mycolor4
+{
+  --background:#000000;
+  --color:rgba(255, 255, 255, 0.565);
+}
+    .mycolor5
+{
+  --background:#00000000;
+  --color:rgba(0, 0, 0, 0.56);
+}
+.myview{
+  --background: #fff url("https://wallup.net/wp-content/uploads/2018/10/05/770958-tron-action-adventure-sci-fi-futuristic-disney.jpg") no-repeat center center / cover;
+}
+.fancy-button {
+  --background: #29522980;
+}
+</style>
+</head>
+<ion-app>
+    {{>header}}
+    <ion-content  class='myview'>
+        <ion-row>
+            </ion-row>
+             <ion-row>
+                 <ion-col size='4'> 
+                 <ion-card   class='mycolor' >
+                     <ion-card-header>
+                         Who is Techie?
+                     </ion-card-header>
+                     <ion-card-content>
+                       <ion-item class='mycolor'>
+                         someone who works with and knows a lot about technical things
+                         
+                       </ion-item>
+                       <ion-item class='mycolor'>
+                           Especially relating to computers
+                       </ion-item>
+                     </ion-card-content>
+
+                 </ion-card>
+                 </ion-col>
+                 <ion-col size='4'>
+                       <ion-card class='mycolor2' >
+                     <ion-card-header>
+                         Who am I?
+                     </ion-card-header>
+                     <ion-card-content>
+                       <ion-item class='mycolor2'>
+                           Well I am a Techie
+
+                       </ion-item>
+                       <ion-item class='mycolor2'>
+                           And my name is Kedhar Kokkiligadda
+
+                       </ion-item>
+                     </ion-card-content>
+
+                 </ion-card>
+                 </ion-col>
+                 <ion-col>
+                       <ion-card class='mycolor3'  >
+                     <ion-card-header>
+                         What is this App for?
+                     </ion-card-header>
+                     <ion-card-content>
+                       <ion-item class='mycolor3'>
+                         This app is for all Techies like me
+                       </ion-item>
+                       <ion-item class='mycolor3'>
+                         This app provides information useful for Techies
+                       </ion-item>
+                     </ion-card-content>
+
+                 </ion-card>
+                 </ion-col>
+            </ion-row>
+
+<ion-row>
+     <ion-col size='2'>
+        <ion-card class='mycolor3'>
+            <ion-card-header color='mycolor3'>
+                <ion-toolbar color='mycolor3'>
+                    <ion-title>
+                        GitHub
+                    </ion-title>
+                </ion-toolbar>
+            </ion-card-header>
+            <ion-card-content>
+                <ion-img src='https://buddy.works/guides/thumbnails/cover-first-steps-git.png'></ion-img>
+            </ion-card-content>
+        </ion-card>
+    </ion-col>
+    <ion-col size='8'>
+        <ion-card class='mycolor'>
+            <ion-card-header>
+           <ion-toolbar class='mycolor' >
+               <ion-title class='mycolor'>
+                   Git
+               </ion-title>
+           </ion-toolbar>
+            </ion-card-header>
+            <ion-card-content >
+                <ion-item class='mycolor2' >
+                    GitHub, Inc. is a US-based global company that provides hosting for software 
+                    development version control using Git. It is a subsidiary of Microsoft, 
+                    which acquired the company in 2018 for US$7.5 billion. 
+                    It offers the distributed version control and source code management
+                     functionality of Git, plus its own features.
+                </ion-item>
+                <ion-item class='mycolor2'>
+
+                    <ion-button class='mycolor' href='https://git-scm.com' slot='end' fill='outline'>GitHub</ion-button>
+                </ion-item>
+
+            </ion-card-content>
+        </ion-card>
+        
+    </ion-col>
+     <ion-col size='2'>
+           <ion-card class='mycolor3'>
+            <ion-card-header color='mycolor3'>
+                <ion-toolbar color='mycolor3'>
+                    <ion-title>
+                        Git
+                    </ion-title>
+                </ion-toolbar>
+            </ion-card-header>
+            <ion-card-content>
+                <ion-item class='mycolor2'>
+               <ion-button href='https://handlebars.com' class='mycolor2' color='light' shape='round' fill='outline'>OPEN</ion-button> 
+               </ion-item>
+            </ion-card-content>
+        </ion-card>
+        
+    </ion-col>
+       <ion-col size='2'>
+        <ion-card class='mycolor'>
+            <ion-card-header color='mycolor'>
+                <ion-toolbar color='mycolor'>
+                    <ion-title>
+                        Express Js
+                    </ion-title>
+                </ion-toolbar>
+            </ion-card-header>
+            <ion-card-content>
+                <ion-img src='https://scotch-res.cloudinary.com/image/upload/w_1050,q_auto:good,f_auto/media/https://scotch.io/wp-content/uploads/2014/11/node-express-sendfile.png'></ion-img>
+            </ion-card-content>
+        </ion-card>
+    </ion-col>
+     <ion-col size='8'>
+        <ion-card class='mycolor2'>
+            <ion-card-header>
+           <ion-toolbar class='mycolor2' >
+               <ion-title class='mycolor2'>
+                   ExpressJs
+               </ion-title>
+           </ion-toolbar>
+            </ion-card-header>
+            <ion-card-content >
+                <ion-item class='mycolor3' >
+                   Express.js, or simply Express, is a web application framework for Node.js, 
+                   released as free and open-source software under the MIT License. 
+                   It is designed for building web applications and APIs. 
+                   It has been called the de facto standard server framework for Node.js
+                </ion-item>
+                <ion-item class='mycolor3'>
+                    
+                    <ion-button href='https://expressjs.com' class='mycolor2' fill='outline' slot='end'>Express</ion-button>
+                  
+                </ion-item>
+
+            </ion-card-content>
+        </ion-card>
+        
+    </ion-col>
+    <ion-col size='2'>
+         <ion-card class='mycolor'>
+            <ion-card-header color='mycolor'>
+                <ion-toolbar color='mycolor'>
+                    <ion-title>
+                        Express Js
+                    </ion-title>
+                </ion-toolbar>
+            </ion-card-header>
+            <ion-card-content>
+                <ion-item class='mycolor3'>
+               <ion-button href='https://expressjs.com' color='light' shape='round' class='mycolor3' fill='outline'>OPEN</ion-button> 
+               </ion-item>
+            </ion-card-content>
+        </ion-card>
+
+    </ion-col>
+       <ion-col size='2'>
+            <ion-card class='mycolor2'>
+            <ion-card-header color='mycolor2'>
+                <ion-toolbar color='mycolor2'>
+                    <ion-title>
+                        Handlebar
+                    </ion-title>
+                </ion-toolbar>
+            </ion-card-header>
+            <ion-card-content>
+                <ion-img src='https://sabe.io/tutorials/getting-started-with-handlebars-js/hero.png'></ion-img>
+            </ion-card-content>
+        </ion-card>
+        
+    </ion-col>
+     <ion-col size='8'>
+        <ion-card class='mycolor3'>
+            <ion-card-header>
+           <ion-toolbar class='mycolor3' >
+               <ion-title class='mycolor3'>
+                   Handlebars
+               </ion-title>
+           </ion-toolbar>
+            </ion-card-header>
+            <ion-card-content >
+                <ion-item class='mycolor' >
+                  Handlebars is a simple templating language.
+                  It uses a template and an input object to generate HTML or other text formats. 
+                  Handlebars templates look like regular text with embedded Handlebars expressions.
+                </ion-item>
+                <ion-item  class='mycolor'>
+
+                    <ion-button href='https://handlebarsjs.com' class='mycolor3' slot='end' fill='outline'>Handlebars</ion-button>
+                </ion-item>
+
+            </ion-card-content>
+        </ion-card>
+        
+    </ion-col>
+       <ion-col size='2'>
+         <ion-card class='mycolor2'>
+            <ion-card-header color='mycolor2'>
+                <ion-toolbar color='mycolor2'>
+                    <ion-title>
+                        Handlebar
+                    </ion-title>
+                </ion-toolbar>
+            </ion-card-header>
+            <ion-card-content>
+                <ion-item class='mycolor' > 
+               <ion-button href='https://handlebars.com' color='light' shape='round' class='mycolor' fill='outline'>OPEN</ion-button> 
+               </ion-item>
+            </ion-card-content>
+        </ion-card>
+
+    </ion-col>
+</ion-row>
+        
+        </ion-content>
+       
+        </ion-app>
+        </html>
+        

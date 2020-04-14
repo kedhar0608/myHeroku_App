@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+<script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"/>
+<title>About</title>
+<style>
+      .mycolor
+{
+  --background:#a72d8280;
+   --color:rgba(255, 255, 255);
+}
+    .mycolor2
+{
+  --background:#33818b80;
+  
+  --color:white;
+}
+    .mycolor3
+{
+  --background:#5d738580;
+  --color:#FFFFFF90;
+}
+    .mycolor4
+{
+  --background:#000000;
+  --color:rgba(255, 255, 255, 0.565);
+}
+    .mycolor5
+{
+  --background:#00000000;
+  --color:rgba(0, 0, 0, 0.56);
+}
+.myview{
+  --background: #fff url("https://i.pinimg.com/originals/40/45/59/4045597be674ae248a7c11e4ded202d3.jpg ") no-repeat center center / cover;
+}
+</style>
+</head>
+  <ion-app>
+    {{>header}}
+    <ion-content  class='myview'>
+   <ion-row>
+     <ion-col size='10'>
+      <ion-card class='mycolor'>
+        <ion-card-header>
+          <ion-toolbar class='mycolor'>
+            <ion-title>
+              About the site
+            </ion-title>
+
+          </ion-toolbar>
+        </ion-card-header>
+        <ion-card-content>
+          This site provides you infromation useful for techies.
+          You can come to know about some opensource technolgies like
+          Git, Express,Handlebars and can visit their official sites
+        </ion-card-content>
+      </ion-card>
+     </ion-col>
+        <ion-col size='10'>
+      <ion-card class='mycolor2'>
+        <ion-card-header>
+          <ion-toolbar class='mycolor2'>
+            <ion-title>
+              About Me
+            </ion-title>
+          </ion-toolbar>
+        </ion-card-header>
+        <ion-card-content>
+       My name is Kedhar Kokkiligadda
+       I am doing BCA in Lovely Professional University,Jalandhar
+        </ion-card-content>
+      </ion-card>
+     </ion-col>
+   </ion-row>
+      
+     
+      </ion-content>
+      {{>footer}}
+      
+  </ion-app>
+
+</html>
